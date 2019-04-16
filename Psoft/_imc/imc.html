@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora de IMC!</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='imc.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+        <header>
+                <h1>Áthila Matheus Barros Borges</h1>
+        
+                <nav>
+                    <ul>
+                    <li><a href="../index.html"> Home </a></li>
+        
+                    <li><a href="./_imc/imc.html"> Calculadora de IMC </a></li>
+                    </ul>
+                </nav>
+        
+           </header>
+
+    <main>
+        <h1>Calcule seu IMC!</h2>
+        <p>
+                O Índice de Massa Corpórea (IMC) é adotado pela Organização Mundial de Saúde
+                 para o cálculo do peso ideal de cada indivíduo.
+        </p>
+
+
+        <p>     
+            Altura(Metros)
+            <input type="number" id="$altura">
+        </p>
+
+        <p>
+            Peso(Quilogramas)
+            <input type="number" id="$peso">
+        </p>
+        
+        <p>
+            <input type="button" value="Calcular" onclick="calcimc()">
+        </p>
+
+        <p> 
+            <output id="$imc"></output>
+        </p>
+
+        <p>
+                <output id="$saude"></output>
+        </p>
+
+
+        <p>
+            <img id="$img">
+        </p>
+    </main>
+    
+</body>
+</html>
