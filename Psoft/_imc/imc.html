@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,29 +9,31 @@
     <link rel='stylesheet' type='text/css' media='screen' href='imc.css'>
     <script src='main.js'></script>
 </head>
+
 <body>
-        <header>
-                <h1>Áthila Matheus Barros Borges</h1>
-        
-                <nav>
-                    <ul>
-                    <li><a href="../index.html"> Home </a></li>
-        
-                    <li><a href="./_imc/imc.html"> Calculadora de IMC </a></li>
-                    </ul>
-                </nav>
-        
-           </header>
+    <header>
+        <h1>Matheus Borges</h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html"> Home </a></li>
+
+                <li><a href="#"> Calculadora de IMC </a></li>
+            </ul>
+        </nav>
+
+    </header>
 
     <main>
-        <h1>Calcule seu IMC!</h2>
+        <h1>Calcule seu IMC!</h1>
         <p>
-                O Índice de Massa Corpórea (IMC) é adotado pela Organização Mundial de Saúde
-                 para o cálculo do peso ideal de cada indivíduo.
+            O Índice de Massa Corpórea (IMC) é adotado pela Organização Mundial de Saúde
+            para o cálculo do peso ideal de cada indivíduo.
         </p>
 
 
-        <p>     
+
+        <p>
             Altura(Metros)
             <input type="number" id="$altura">
         </p>
@@ -39,24 +42,39 @@
             Peso(Quilogramas)
             <input type="number" id="$peso">
         </p>
-        
+
+
+
         <p>
             <input type="button" value="Calcular" onclick="calcimc()">
         </p>
 
-        <p> 
+
+
+        <p id="imc">
             <output id="$imc"></output>
         </p>
 
-        <p>
-                <output id="$saude"></output>
+        <p id="texto">
+            <output id="$saude"></output>
         </p>
 
 
-        <p>
+
+        <p id="imagem">
             <img id="$img">
         </p>
+
+
     </main>
-    
+
+    <footer>
+        <p>
+            Copyright &copy;. Pode copiar a vontade!
+
+        </p>
+        
+    </footer>
 </body>
+
 </html>
